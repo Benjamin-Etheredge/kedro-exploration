@@ -1,0 +1,90 @@
+test_ratio: 0.3
+seed: 4
+hyper_n_trials: 12
+hyper_timeout_seconds: 18000
+k_folds: 10
+#hyper_scoring: roc_auc_ovr
+hyper_scoring: f1_weighted
+
+# NOTE can't nest more than one layer due to kedro
+# TODO figure out how to create these dynamically
+# mushroom
+#mushroom_knn_name: mushroom_knn
+#mushroom_knn_sql: sqlite:///data/08_reporting/mushroom/sql/knn.db
+
+#mushroom_decision_tree_name: mushroom_decision_tree
+#mushroom_decision_tree_sql: sqlite:///data/08_reporting/mushroom/sql/decision_tree.db
+
+#mushroom_boosting_name: mushroom_boosting
+#mushroom_boosting_sql: sqlite:///data/08_reporting/mushroom/sql/boosting.db
+
+#mushroom_neural_network_name: mushroom_neural_network
+#mushroom_neural_network_sql: sqlite:///data/08_reporting/mushroom/sql/neural_network.db
+
+#mushroom_svm_name: mushroom_svm
+#mushroom_svm_sql: sqlite:///data/08_reporting/mushroom/sql/svm.db
+
+# mnist
+#mnist_knn_name: mnist_knn
+#mnist_knn_sql: sqlite:///data/08_reporting/mnist/sql/knn.db
+
+#mnist_decision_tree_name: mnist_decision_tree
+#mnist_decision_tree_sql: sqlite:///data/08_reporting/mnist/sql/decision_tree.db
+
+#mnist_boosting_name: mnist_boosting
+#mnist_boosting_sql: sqlite:///data/08_reporting/mnist/sql/boosting.db
+
+#mnist_neural_network_name: mnist_neural_network
+mnist_neural_network_sql: sqlite:///data/08_reporting/mnist/sql/neural_network.db
+
+#mnist_svm_name: mnist_svm
+#mnist_svm_sql: sqlite:///data/08_reporting/mnist/sql/svm.db
+
+# mnist_sub
+mnist_sub_knn_name: mnist_sub_knn
+mnist_sub_knn_sql: sqlite:///data/08_reporting/mnist_sub/sql/knn.db
+
+mnist_sub_decision_tree_name: mnist_sub_decision_tree
+mnist_sub_decision_tree_sql: sqlite:///data/08_reporting/mnist_sub_tree.db
+
+mnist_sub_boosting_name: mnist_sub_boosting
+mnist_sub_boosting_sql: sqlite:///data/08_reporting/mnist_sub/sql/boosting.db
+
+mnist_sub_neural_network_name: mnist_sub_neural_network
+mnist_sub_neural_network_sql: sqlite:///data/08_reporting/mnist_sub_network.db
+
+mnist_sub_svm_name: mnist_sub_svm
+mnist_sub_svm_sql: sqlite:///data/08_reporting/mnist_sub/sql/svm.db
+
+# kddcup99
+kddcup99_knn_name: kddcup99_knn
+kddcup99_knn_sql: sqlite:///data/08_reporting/kddcup99/sql/knn.db
+
+kddcup99_decision_tree_name: kddcup99_decision_tree
+kddcup99_decision_tree_sql: sqlite:///data/08_reporting/kddcup99/sql/decision_tree.db
+
+kddcup99_boosting_name: kddcup99_boosting
+kddcup99_boosting_sql: sqlite:///data/08_reporting/kddcup99/sql/boosting.db
+
+kddcup99_neural_network_name: kddcup99_neural_network
+kddcup99_neural_network_sql: sqlite:///data/08_reporting/kddcup99/sql/neural_network.db
+
+kddcup99_svm_name: kddcup99_svm
+kddcup99_svm_sql: sqlite:///data/08_reporting/kddcup99/sql/svm.db
+
+
+# adult
+adult_knn_name: adult_knn
+adult_knn_sql: sqlite:///data/08_reporting/adult/sql/knn.db
+
+adult_decision_tree_name: adult_decision_tree
+adult_decision_tree_sql: sqlite:///data/08_reporting/adult/sql/decision_tree.db
+
+adult_boosting_name: adult_boosting
+adult_boosting_sql: sqlite:///data/08_reporting/adult/sql/boosting.db
+
+adult_neural_network_name: adult_neural_network
+adult_neural_network_sql: sqlite:///data/08_reporting/adult/sql/neural_network.db
+
+adult_svm_name: adult_svm
+adult_svm_sql: sqlite:///data/08_reporting/adult/sql/svm.db

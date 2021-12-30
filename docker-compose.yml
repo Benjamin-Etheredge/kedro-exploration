@@ -1,0 +1,36 @@
+version: "3.9"
+services:
+  mnist_sub:
+    build: .
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: ["kedro", "run", "--pipeline", "mnist_sub_all_algs", "-t", "hyper"]
+    deploy:
+      mode: replicated
+      restart_policy: 
+        condition: on-failure
+      replicas: 48
+  run:
+    build: .
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: ["kedro", "run", "--pipeline", "adult_all_algs", "-t", "hyper"]
+    #command: ["kedro", "run", "--pipeline", "goal", "-t", "hyper"]
+    deploy:
+      mode: replicated
+      restart_policy: 
+        condition: on-failure
+      replicas: 48
+  mnist_run:
+    build: .
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: ["kedro", "run", "--pipeline", "mnist", "-t", "hyper"]
+    deploy:
+      mode: replicated
+      restart_policy: 
+        condition: on-failure
+      replicas: 32

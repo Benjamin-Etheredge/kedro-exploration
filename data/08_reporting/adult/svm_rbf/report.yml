@@ -1,0 +1,60 @@
+params:
+  C: 6.364026814008558
+  break_ties: false
+  cache_size: 8192
+  class_weight: null
+  coef0: 0.0
+  decision_function_shape: ovr
+  degree: 3
+  gamma: scale
+  kernel: rbf
+  max_iter: -1
+  probability: false
+  random_state: null
+  shrinking: true
+  tol: 0.001
+  verbose: false
+test:
+  '0':
+    f1-score: 0.8973705866217327
+    precision: 0.8751146438398043
+    recall: 0.9207880981101729
+    support: 12435
+  '1':
+    f1-score: 0.6281414170097971
+    precision: 0.6918986549890522
+    recall: 0.5751430057202288
+    support: 3846
+  accuracy: 0.8391376451077943
+  macro avg:
+    f1-score: 0.7627560018157649
+    precision: 0.7835066494144283
+    recall: 0.7479655519152009
+    support: 16281
+  weighted avg:
+    f1-score: 0.8337715824863907
+    precision: 0.8318342130849372
+    recall: 0.8391376451077943
+    support: 16281
+train:
+  '0':
+    f1-score: 0.9047075044317511
+    precision: 0.8816122840690979
+    recall: 0.9290453074433657
+    support: 24720
+  '1':
+    f1-score: 0.6629041248606466
+    precision: 0.7306097373675319
+    recall: 0.6066828210687413
+    support: 7841
+  accuracy: 0.8514173397622923
+  macro avg:
+    f1-score: 0.7838058146461988
+    precision: 0.8061110107183149
+    recall: 0.7678640642560535
+    support: 32561
+  weighted avg:
+    f1-score: 0.8464789396082804
+    precision: 0.845249427624671
+    recall: 0.8514173397622923
+    support: 32561

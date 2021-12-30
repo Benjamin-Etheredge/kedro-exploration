@@ -1,0 +1,66 @@
+params:
+  ccp_alpha: 0.0
+  criterion: friedman_mse
+  init: null
+  learning_rate: 0.1
+  loss: deviance
+  max_depth: 3
+  max_features: null
+  max_leaf_nodes: null
+  min_impurity_decrease: 0.0
+  min_impurity_split: null
+  min_samples_leaf: 1
+  min_samples_split: 2
+  min_weight_fraction_leaf: 0.0
+  n_estimators: 100
+  n_iter_no_change: null
+  random_state: null
+  subsample: 1.0
+  tol: 0.0001
+  validation_fraction: 0.1
+  verbose: 0
+  warm_start: false
+test:
+  '0':
+    f1-score: 0.9003519749706688
+    precision: 0.8763608679101637
+    recall: 0.9256936067551267
+    support: 12435
+  '1':
+    f1-score: 0.63558352402746
+    precision: 0.7062937062937062
+    recall: 0.577743109724389
+    support: 3846
+  accuracy: 0.8434985565997175
+  macro avg:
+    f1-score: 0.7679677494990644
+    precision: 0.791327287101935
+    recall: 0.7517183582397579
+    support: 16281
+  weighted avg:
+    f1-score: 0.8378067097948454
+    precision: 0.83618653564698
+    recall: 0.8434985565997175
+    support: 16281
+train:
+  '0':
+    f1-score: 0.9007585706725209
+    precision: 0.8737498573981823
+    recall: 0.9294902912621359
+    support: 24720
+  '1':
+    f1-score: 0.6410492733073377
+    precision: 0.7217432950191571
+    recall: 0.5765846193087616
+    support: 7841
+  accuracy: 0.844507232578852
+  macro avg:
+    f1-score: 0.7709039219899293
+    precision: 0.7977465762086697
+    recall: 0.7530374552854487
+    support: 32561
+  weighted avg:
+    f1-score: 0.8382180897093933
+    precision: 0.8371452243827977
+    recall: 0.844507232578852
+    support: 32561

@@ -1,0 +1,58 @@
+params:
+  ccp_alpha: 0.0
+  class_weight: null
+  criterion: gini
+  max_depth: 40
+  max_features: log2
+  max_leaf_nodes: null
+  min_impurity_decrease: 0.0
+  min_impurity_split: null
+  min_samples_leaf: 12
+  min_samples_split: 11
+  min_weight_fraction_leaf: 0.0
+  random_state: null
+  splitter: best
+test:
+  '0':
+    f1-score: 0.891002712157541
+    precision: 0.87144394894664
+    recall: 0.91145958986731
+    support: 12435
+  '1':
+    f1-score: 0.610588400505547
+    precision: 0.6638167938931298
+    recall: 0.5652626105044202
+    support: 3846
+  accuracy: 0.8296787666605245
+  macro avg:
+    f1-score: 0.750795556331544
+    precision: 0.7676303714198849
+    recall: 0.7383611001858651
+    support: 16281
+  weighted avg:
+    f1-score: 0.8247614835712399
+    precision: 0.8223969593062125
+    recall: 0.8296787666605245
+    support: 16281
+train:
+  '0':
+    f1-score: 0.8982102026334464
+    precision: 0.8759034291865293
+    recall: 0.9216828478964402
+    support: 24720
+  '1':
+    f1-score: 0.6411396803335649
+    precision: 0.704382348450145
+    recall: 0.5883178166050249
+    support: 7841
+  accuracy: 0.8414053622431743
+  macro avg:
+    f1-score: 0.7696749414835057
+    precision: 0.7901428888183372
+    recall: 0.7550003322507326
+    support: 32561
+  weighted avg:
+    f1-score: 0.8363051639259936
+    precision: 0.8345995136417368
+    recall: 0.8414053622431743
+    support: 32561

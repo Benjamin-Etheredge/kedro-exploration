@@ -1,0 +1,34 @@
+# https://archive.ics.uci.edu/ml/datasets/Mushroom
+uci_mushroom_data:
+  type: CachedDataSet
+  dataset:
+    type: pandas.CSVDataSet
+    filepath: https://archive.ics.uci.edu/ml/machine-learning-databases/mushroom/agaricus-lepiota.data
+    load_args:
+      names: ['class', 'cap-shape', 'cap-surface', 'cap-color', 'bruises', 'odor', 
+              'gill-attachment', 'gill-spacing', 'gill-size', 'gill-color',
+              'stalk-shape', 'stalk-root', 'stalk-surface-above-ring',
+              'stalk-surface-below-ring', 'stalk-color-above-ring',
+              'stalk-color-below-ring', 'veil-type', 'veil-color',
+              'ring-number', 'ring-type', 'spore-print-color', 
+              'population', 'habitat']
+
+clean_mushroom_data:
+  type: pandas.CSVDataSet
+  filepath: data/03_primary/mushroom/clean_mushroom_data.csv
+
+mushroom_train_x:
+  type: pandas.CSVDataSet
+  filepath: data/04_feature/mushroom/mushroom_train_x.csv
+
+mushroom_train_y:
+  type: pickle.PickleDataSet
+  filepath: data/04_feature/mushroom/mushroom_train_y.csv
+
+mushroom_test_x:
+  type: pandas.CSVDataSet
+  filepath: data/04_feature/mushroom/mushroom_test_x.csv
+
+mushroom_test_y:
+  type: pickle.PickleDataSet
+  filepath: data/04_feature/mushroom/test_y.csv

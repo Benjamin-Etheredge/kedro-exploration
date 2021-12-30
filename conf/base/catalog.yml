@@ -1,0 +1,61 @@
+# Here you can define all your data sets by using simple YAML syntax.
+#
+# Documentation for this file format can be found in "The Data Catalog"
+# Link: https://kedro.readthedocs.io/en/stable/05_data/01_data_catalog.html
+
+uci_iris_data:
+  type: pandas.CSVDataSet
+  filepath: https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data
+  load_args:
+    names: ['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'class']
+#grade_knn_mushroom:
+  #type: matplotlib.FigureDataSet
+  #filepath: data/08_reporting/report.
+
+  # NOTES:
+  # - Logical rules are present in ds info
+  # - I could see if decision tree learn this
+  # - I could thrown out the values they use and check performance
+
+
+
+
+
+# https://archive.ics.uci.edu/ml/datasets/APS+Failure+at+Scania+Trucks
+uci_aps_failure_train_data:
+  type: pandas.CSVDataSet
+  filepath: https://archive.ics.uci.edu/ml/machine-learning-databases/00421/aps_failure_training_set.csv
+uci_aps_failure_test_data:
+  type: pandas.CSVDataSet
+  filepath: https://archive.ics.uci.edu/ml/machine-learning-databases/00421/aps_failure_test_set.csv
+
+uci_mnist_train:
+  type: pandas.CSVDataSet
+  filepath: https://archive.ics.uci.edu/ml/machine-learning-databases/optdigits/optdigits.tra
+  load_args:
+    names: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9',
+            '10', '11', '12', '13', '14', '15', '16', '17', '18', '19',
+            '20', '21', '22', '23', '24', '25', '26', '27', '28', '29',
+            '30', '31', '32', '33', '34', '35', '36', '37', '38', '39',
+            '40', '41', '42', '43', '44', '45', '46', '47', '48', '49',
+            '50', '51', '52', '53', '54', '55', '56', '57', '58', '59',
+            '60', '61', '62', '63', 'label']
+
+
+uci_mnist_test:
+  type: pandas.CSVDataSet
+  filepath: https://archive.ics.uci.edu/ml/machine-learning-databases/optdigits/optdigits.tes
+  load_args:
+    names: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9',
+            '10', '11', '12', '13', '14', '15', '16', '17', '18', '19',
+            '20', '21', '22', '23', '24', '25', '26', '27', '28', '29',
+            '30', '31', '32', '33', '34', '35', '36', '37', '38', '39',
+            '40', '41', '42', '43', '44', '45', '46', '47', '48', '49',
+            '50', '51', '52', '53', '54', '55', '56', '57', '58', '59',
+            '60', '61', '62', '63', 'label']
+
+
+# https://archive.ics.uci.edu/ml/datasets/Audit+Data
+#uci_audit_data:
+  #type: pandas.CSVDataSet
+  #filepath: https://archive.ics.uci.edu/ml/machine-learning-databases/00475/audit_data.zip

@@ -1,0 +1,53 @@
+params:
+  algorithm: auto
+  leaf_size: 77
+  metric: minkowski
+  metric_params: null
+  n_jobs: 25
+  n_neighbors: 35
+  p: 1
+  weights: uniform
+test:
+  '0':
+    f1-score: 0.8943153576077951
+    precision: 0.8777295957875174
+    recall: 0.9115400080418175
+    support: 12435
+  '1':
+    f1-score: 0.6285872729793429
+    precision: 0.6732996732996733
+    recall: 0.5894435777431097
+    support: 3846
+  accuracy: 0.8354523677906762
+  macro avg:
+    f1-score: 0.761451315293569
+    precision: 0.7755146345435954
+    recall: 0.7504917928924636
+    support: 16281
+  weighted avg:
+    f1-score: 0.8315434017401563
+    precision: 0.8294378764896704
+    recall: 0.8354523677906762
+    support: 16281
+train:
+  '0':
+    f1-score: 0.9003169572107765
+    precision: 0.8821428571428571
+    recall: 0.9192556634304208
+    support: 24720
+  '1':
+    f1-score: 0.6563311023084278
+    precision: 0.7065137479782385
+    recall: 0.6128044892233133
+    support: 7841
+  accuracy: 0.8454592917907927
+  macro avg:
+    f1-score: 0.7783240297596021
+    precision: 0.7943283025605479
+    recall: 0.766030076326867
+    support: 32561
+  weighted avg:
+    f1-score: 0.8415628314686521
+    precision: 0.8398496890902858
+    recall: 0.8454592917907927
+    support: 32561

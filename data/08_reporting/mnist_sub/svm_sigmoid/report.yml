@@ -1,0 +1,124 @@
+test:
+  '0':
+    f1-score: 1.0
+    precision: 1.0
+    recall: 1.0
+    support: 54
+  '1':
+    f1-score: 0.9565217391304348
+    precision: 0.9166666666666666
+    recall: 1.0
+    support: 55
+  '2':
+    f1-score: 0.9906542056074767
+    precision: 0.9814814814814815
+    recall: 1.0
+    support: 53
+  '3':
+    f1-score: 0.9908256880733944
+    precision: 1.0
+    recall: 0.9818181818181818
+    support: 55
+  '4':
+    f1-score: 0.9906542056074767
+    precision: 1.0
+    recall: 0.9814814814814815
+    support: 54
+  '5':
+    f1-score: 1.0
+    precision: 1.0
+    recall: 1.0
+    support: 55
+  '6':
+    f1-score: 0.9811320754716981
+    precision: 1.0
+    recall: 0.9629629629629629
+    support: 54
+  '7':
+    f1-score: 1.0
+    precision: 1.0
+    recall: 1.0
+    support: 54
+  '8':
+    f1-score: 0.9600000000000001
+    precision: 1.0
+    recall: 0.9230769230769231
+    support: 52
+  '9':
+    f1-score: 0.9818181818181818
+    precision: 0.9642857142857143
+    recall: 1.0
+    support: 54
+  accuracy: 0.9851851851851852
+  macro avg:
+    f1-score: 0.9851606095708665
+    precision: 0.9862433862433863
+    recall: 0.9849339549339549
+    support: 540
+  weighted avg:
+    f1-score: 0.98522855998123
+    precision: 0.9861233588085441
+    recall: 0.9851851851851852
+    support: 540
+train:
+  '0':
+    f1-score: 1.0
+    precision: 1.0
+    recall: 1.0
+    support: 124
+  '1':
+    f1-score: 0.9921875
+    precision: 0.9844961240310077
+    recall: 1.0
+    support: 127
+  '2':
+    f1-score: 1.0
+    precision: 1.0
+    recall: 1.0
+    support: 124
+  '3':
+    f1-score: 0.988235294117647
+    precision: 0.9921259842519685
+    recall: 0.984375
+    support: 128
+  '4':
+    f1-score: 0.9920634920634921
+    precision: 1.0
+    recall: 0.984251968503937
+    support: 127
+  '5':
+    f1-score: 0.9802371541501976
+    precision: 0.9841269841269841
+    recall: 0.9763779527559056
+    support: 127
+  '6':
+    f1-score: 0.996078431372549
+    precision: 0.9921875
+    recall: 1.0
+    support: 127
+  '7':
+    f1-score: 0.9920634920634921
+    precision: 0.984251968503937
+    recall: 1.0
+    support: 125
+  '8':
+    f1-score: 0.9836065573770492
+    precision: 0.9836065573770492
+    recall: 0.9836065573770492
+    support: 122
+  '9':
+    f1-score: 0.9800796812749003
+    precision: 0.984
+    recall: 0.9761904761904762
+    support: 126
+  accuracy: 0.9904534606205251
+  macro avg:
+    f1-score: 0.9904551602419327
+    precision: 0.9904795118290947
+    recall: 0.9904801954827368
+    support: 1257
+  weighted avg:
+    f1-score: 0.9904407711607677
+    precision: 0.9904777798594343
+    recall: 0.9904534606205251
+    support: 1257

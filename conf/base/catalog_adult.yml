@@ -1,0 +1,40 @@
+# https://archive.ics.uci.edu/ml/datasets/Adult
+uci_adult_data:
+  type: CachedDataSet
+  dataset:
+    type: pandas.CSVDataSet
+    filepath: https://archive.ics.uci.edu/ml/machine-learning-databases/adult/adult.data
+    load_args:
+      names: ['age', 'workclass', 'fnlwgt', 'education', 'education-num', 
+              'marital-status', 'occupation', 'relationship', 'race', 'sex',
+              'capital-gain', 'capital-loss', 'hours-per-week', 'native-country',
+              'class']
+
+uci_adult_test:
+  type: CachedDataSet
+  dataset:
+    type: pandas.CSVDataSet
+    filepath: https://archive.ics.uci.edu/ml/machine-learning-databases/adult/adult.test
+    load_args:
+      names: ['age', 'workclass', 'fnlwgt', 'education', 'education-num', 
+              'marital-status', 'occupation', 'relationship', 'race', 'sex',
+              'capital-gain', 'capital-loss', 'hours-per-week', 'native-country',
+              'class']
+      skiprows: 1 # first row has junk
+
+
+adult_train_x:
+  type: pandas.CSVDataSet
+  filepath: data/04_feature/adult/adult_train_x.csv
+
+adult_train_y:
+  type: pickle.PickleDataSet
+  filepath: data/04_feature/adult/adult_train_y.csv
+
+adult_test_x:
+  type: pandas.CSVDataSet
+  filepath: data/04_feature/adult/adult_test_x.csv
+
+adult_test_y:
+  type: pickle.PickleDataSet
+  filepath: data/04_feature/adult/test_y.csv

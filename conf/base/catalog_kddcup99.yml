@@ -1,0 +1,59 @@
+# Raw
+raw_kddcup99_data:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/kddcup99_data.csv
+
+raw_kddcup99_targets:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/kddcup99_targets.csv
+
+kddcup99_raw_report:
+  type: text.TextDataSet
+  filepath: data/08_reporting/kddcup99/analysis/raw_report.md
+
+kddcup99_clean_report:
+  type: text.TextDataSet
+  filepath: data/08_reporting/kddcup99/analysis/clean_report.md
+
+kddcup99_train_report:
+  type: text.TextDataSet
+  filepath: data/08_reporting/kddcup99/analysis/train_report.md
+
+kddcup99_test_report:
+  type: text.TextDataSet
+  filepath: data/08_reporting/kddcup99/analysis/test_report.md
+
+# Clean
+clean_kddcup99_data:
+  type: pandas.CSVDataSet
+  filepath: data/02_intermediate/kddcup99_data.csv
+
+clean_kddcup99_targets:
+  type: pandas.CSVDataSet
+  filepath: data/02_intermediate/kddcup99_targets.csv
+
+# Feature Engineering
+transformers:
+  type: PartitionedDataSet
+  path: data/05_model_input/kddcup99
+  dataset: pickle.PickleDataSet
+
+kddcup99_train_x:
+  type: pickle.PickleDataSet
+  filepath: data/04_feature/kddcup99/train_x.pkl
+
+kddcup99_train_y:
+  type: pickle.PickleDataSet
+  filepath: data/04_feature/kddcup99/train_y.pkl
+
+kddcup99_test_x:
+  type: pickle.PickleDataSet
+  filepath: data/04_feature/kddcup99/test_x.pkl
+
+kddcup99_test_y:
+  type: pickle.PickleDataSet
+  filepath: data/04_feature/kddcup99/test_y.pkl
+
+# ##############################################################################
+# Models
+# ##############################################################################

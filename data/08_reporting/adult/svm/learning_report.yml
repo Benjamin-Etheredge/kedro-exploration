@@ -1,0 +1,103 @@
+fit_times_mean: !!python/object/apply:numpy.core.multiarray._reconstruct
+  args:
+  - &id001 !!python/name:numpy.ndarray ''
+  - !!python/tuple
+    - 0
+  - !!binary |
+    Yg==
+  state: !!python/tuple
+  - 1
+  - !!python/tuple
+    - 5
+  - &id002 !!python/object/apply:numpy.dtype
+    args:
+    - f8
+    - false
+    - true
+    state: !!python/tuple
+    - 3
+    - <
+    - null
+    - null
+    - null
+    - -1
+    - -1
+    - 0
+  - false
+  - !!binary |
+    ZmZmZk4fuT8zMzMz6vbRPzMzMzNffuA/MzMzM3Fn5z8AAACAq7zrPw==
+fit_times_std: !!python/object/apply:numpy.core.multiarray._reconstruct
+  args:
+  - *id001
+  - !!python/tuple
+    - 0
+  - !!binary |
+    Yg==
+  state: !!python/tuple
+  - 1
+  - !!python/tuple
+    - 5
+  - *id002
+  - false
+  - !!binary |
+    ljRqtpOngj+Qk50tFsSMP8rBkGLTqJ4/OmLdOyY5pD932FG3cKirPw==
+test_scores_mean: !!python/object/apply:numpy.core.multiarray._reconstruct
+  args:
+  - *id001
+  - !!python/tuple
+    - 0
+  - !!binary |
+    Yg==
+  state: !!python/tuple
+  - 1
+  - !!python/tuple
+    - 5
+  - *id002
+  - false
+  - !!binary |
+    gCWBEWdx6j/zg59yaJ/qP9oLLi+wnuo/O68oVNig6j/r7niDAKPqPw==
+test_scores_std: !!python/object/apply:numpy.core.multiarray._reconstruct
+  args:
+  - *id001
+  - !!python/tuple
+    - 0
+  - !!binary |
+    Yg==
+  state: !!python/tuple
+  - 1
+  - !!python/tuple
+    - 5
+  - *id002
+  - false
+  - !!binary |
+    fTv3H8ZPfD9CL1QbRV17Pz24XEymSXc/1+L6oGAWeD+ocM+iRWl4Pw==
+train_scores_mean: !!python/object/apply:numpy.core.multiarray._reconstruct
+  args:
+  - *id001
+  - !!python/tuple
+    - 0
+  - !!binary |
+    Yg==
+  state: !!python/tuple
+  - 1
+  - !!python/tuple
+    - 5
+  - *id002
+  - false
+  - !!binary |
+    w7fjPBhz6j9S3KiDXJ7qP5Kpt1khmeo/+nc5/lio6j/D8iZ6JKrqPw==
+train_scores_std: !!python/object/apply:numpy.core.multiarray._reconstruct
+  args:
+  - *id001
+  - !!python/tuple
+    - 0
+  - !!binary |
+    Yg==
+  state: !!python/tuple
+  - 1
+  - !!python/tuple
+    - 5
+  - *id002
+  - false
+  - !!binary |
+    Z23OIHlLej+aTTRgBM9yPxAqC7onoWY/KSdsVzh9YT936mxTMrxaPw==

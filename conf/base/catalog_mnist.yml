@@ -1,0 +1,47 @@
+mnist_train_x:
+  type: pickle.PickleDataSet
+  filepath: data/04_feature/mnist/train_x.pkl
+
+mnist_train_y:
+  type: pickle.PickleDataSet
+  filepath: data/04_feature/mnist/train_y.pkl
+
+mnist_test_x:
+  type: pickle.PickleDataSet
+  filepath: data/04_feature/mnist/test_x.pkl
+
+mnist_test_y:
+  type: pickle.PickleDataSet
+  filepath: data/04_feature/mnist/test_y.pkl
+
+raw_mnist_sub_data:
+  type: pickle.PickleDataSet
+  filepath: data/01_raw/mnist_sub/data.pkl
+
+raw_mnist_sub_targets:
+  type: pickle.PickleDataSet
+  filepath: data/01_raw/mnist_sub/targets.pkl
+
+mnist_sub_train_x:
+  type: pickle.PickleDataSet
+  filepath: data/04_feature/mnist_sub/train_x.pkl
+
+mnist_sub_train_y:
+  type: pickle.PickleDataSet
+  filepath: data/04_feature/mnist_sub/train_y.pkl
+
+mnist_sub_test_x:
+  type: pickle.PickleDataSet
+  filepath: data/04_feature/mnist_sub/test_x.pkl
+
+mnist_sub_test_y:
+  type: pickle.PickleDataSet
+  filepath: data/04_feature/mnist_sub/test_y.pkl
+
+raw_mnist_sub_data:
+  type: pickle.PickleDataSet
+  filepath: data/01_raw/mnist_sub/data.pkl
+
+raw_mnist_sub_targets:
+  type: pickle.PickleDataSet
+  filepath: data/01_raw/mnist_sub/targets.pkl

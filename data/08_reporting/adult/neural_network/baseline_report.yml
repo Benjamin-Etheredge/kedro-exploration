@@ -1,0 +1,69 @@
+params:
+  activation: relu
+  alpha: 0.0001
+  batch_size: auto
+  beta_1: 0.9
+  beta_2: 0.999
+  early_stopping: false
+  epsilon: 1.0e-08
+  hidden_layer_sizes: !!python/tuple
+  - 100
+  learning_rate: constant
+  learning_rate_init: 0.001
+  max_fun: 15000
+  max_iter: 200
+  momentum: 0.9
+  n_iter_no_change: 10
+  nesterovs_momentum: true
+  power_t: 0.5
+  random_state: null
+  shuffle: true
+  solver: adam
+  tol: 0.0001
+  validation_fraction: 0.1
+  verbose: false
+  warm_start: false
+test:
+  '0':
+    f1-score: 0.8950385451670291
+    precision: 0.880248833592535
+    recall: 0.9103337354242059
+    support: 12435
+  '1':
+    f1-score: 0.6346497867070318
+    precision: 0.6740719087985969
+    recall: 0.5995839833593344
+    support: 3846
+  accuracy: 0.8369264787175235
+  macro avg:
+    f1-score: 0.7648441659370304
+    precision: 0.7771603711955659
+    recall: 0.7549588593917702
+    support: 16281
+  weighted avg:
+    f1-score: 0.8335278784366593
+    precision: 0.8315444264457083
+    recall: 0.8369264787175235
+    support: 16281
+train:
+  '0':
+    f1-score: 0.9059880001589383
+    precision: 0.8901772468181464
+    recall: 0.9223705501618124
+    support: 24720
+  '1':
+    f1-score: 0.6800108195834461
+    precision: 0.72376565423924
+    recall: 0.6412447391914297
+    support: 7841
+  accuracy: 0.8546727680353797
+  macro avg:
+    f1-score: 0.7929994098711922
+    precision: 0.8069714505286931
+    recall: 0.781807644676621
+    support: 32561
+  weighted avg:
+    f1-score: 0.8515705353116536
+    precision: 0.8501037448553318
+    recall: 0.8546727680353797
+    support: 32561
