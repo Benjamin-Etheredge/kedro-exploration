@@ -1,5 +1,7 @@
 # supervised
 
+# Pretty pictures and my write-up can be found [here](https://benjamin.etheredge.ai/projects/kedro-supervised/).
+
 ## Overview
 
 This is your new Kedro project, which was generated using `Kedro 0.17.4`.
